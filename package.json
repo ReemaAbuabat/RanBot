@@ -1,0 +1,19 @@
+{
+  "name": "ran-slack-boto",
+  "version": "0.0.0",
+  "description": "to test slackbot",
+  "main": "src",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ."
+  },
+  "author": "test me",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/client": "^5.0.2",
+    "@slack/rtm-api": "^5.0.5",
+    "@slack/web-api": "^5.14.0",
+    "esm": "^3.2.25",
+    "node-fetch": "^2.6.1"
+  }
+}
